@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Sidebar Menu | VET.</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <img src="./assets/logo.svg" alt="logo">
+        <h3 class="logo_name">VET.</h3>
+      </div>
+      <i class='bx bx-menu toggle' id="btn"></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+        <i class='bx bx-search toggle'></i>
+        <input type="text" placeholder="Buscar">
+        <p class="tooltip">Buscar</p>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt toggle'></i>
+          <p class="links_name">Dashboard</p>
+        </a>
+        <p class="tooltip">Dashboard</p>
+      </li>
+      <li>
+        <a href="#">
+          <img class="icons toggle" src="./assets/pet.svg" alt="pet-paw">
+          <p class="links_name">Pets</p>
+        </a>
+        <p class="tooltip">Pets</p>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user toggle'></i>
+          <p class="links_name">Clientes</p>
+        </a>
+        <p class="tooltip">Clientes</p>
+      </li>
+      <li>
+        <a href="#">
+          <img class="icons toggle" src="./assets/vets.svg" alt="vets">
+          <p class="links_name">Veterinários</p>
+        </a>
+        <p class="tooltip">Veterinários</p>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-chat toggle'></i>
+          <p class="links_name">Mensagens</p>
+        </a>
+        <p class="tooltip">Mensagens</p>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt toggle' ></i>
+          <p class="links_name">Compras</p>
+        </a>
+        <p class="tooltip">Compras</p>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-dollar toggle'></i>
+          <p class="links_name">Financeiro</p>
+        </a>
+        <p class="tooltip">Financeiro</p>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog toggle' ></i>
+          <p class="links_name">Ajustes</p>
+        </a>
+        <p class="tooltip">Ajustes</p>
+      </li>
+    </ul>
+    <div class="profile_content">
+      <div class="profile">
+        <div class="profile_details">
+          <img src="./assets/profile.png" alt="profile-photo">
+          <div class="name_job">
+            <p class="name">Eleonor Pena</p>
+            <p class="job">Veterinária</p>
+          </div>
+        </div>
+        <i class='bx bx-log-out toggle' id="log_out"></i>
+      </div>
+    </div>
+  </div>
+  <div class="home_content">
+    <div class="text">Dashboard</div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
